@@ -1,0 +1,26 @@
+<% @title = _('Change your General Law information on {{site_name}}',
+   :site_name => site_name) %>
+
+<div id="change_general_law_information">
+
+  <%= form_for @general_law, :url => general_law_path, :method => :put do |f| %>
+
+    <div class="form_note">
+      <h1><%= @title %></h1>
+    </div>
+
+    <%= foi_error_messages_for :general_law %>
+
+    <fieldset id="user_general_law_fields" class="small-4">
+      <legend><%= _('General Law') %></legend>
+
+      <%= render :partial => 'user/general_law_fields', :locals => { :f => f } %>
+    </fieldset>
+
+    <div class="form_button">
+      <%= f.submit _('Change General Law Information') %>
+    </div>
+
+  <% end %>
+
+</div>

@@ -1,0 +1,191 @@
+# Your theme's locale files will override the core locale files.  This
+# is a good place to put both translations specific to your theme, and
+# "translations" of the core English words (e.g. you might want to
+# call FOI "RTI" throughougout, like this:
+#
+# msgid "Make and browse Freedom of Information (FOI) requests"
+# msgstr "Make and browse Right to Know (RTI) requests"
+
+msgid "Find an authority"
+msgstr "اختار الهيكل الذي سترسل إليه مطلب نفاذ للمعلومة"
+
+msgid "Your status:"
+msgstr "حدّد الصفة :"
+
+msgid "Personne morale"
+msgstr "شخص معنوي"
+
+msgid "Personne physique"
+msgstr "شخص طبيعي" 
+
+msgid "Your address:"
+msgstr "العنوان / المقّر الإجتماعي :"
+
+msgid "Previous Label"
+msgstr "السابق"
+
+msgid "Turn off email alerts"
+msgstr "إيقاف الإشعارات / التنبيهات عبر البريد الألكتروني"
+
+msgid "Show only..."
+msgstr "إظهار حسب معايير البحث التالية..."
+
+msgid "Your <strong>name will appear publicly</strong> (<a href="{{why_url}}">why?</a>) on this website and in search engines. <a href="{{help_url}}">Thinking of using a pseudonym?</a>"
+msgstr "سيظهر <strong> الإسم المستعمل بصفة علنيّة </strong> (<a href="{{why_url}}"> لماذا ؟ </a>) على هذا الموقع وفي محركات البحث. <a href="{{help_url}}"> هل تفكّر  في استخدام إسم مستعار ؟ </a>"
+
+msgid "Thinking of using a pseudonym?"
+msgstr "هل تفكّر في إستعمال إيم مستعار"
+
+msgid "Your name:"
+msgstr "الإسم واللّقب / التسمية الإجتماعيّة :"
+
+msgid "Help pages"
+msgstr "صفحات المساعدة"
+
+msgid "Video introduction"
+msgstr "برنامج أنشر بإختصار"
+
+msgid "Introduction"
+msgstr "تقديم عام"
+
+msgid "Making requests"
+msgstr "إرسال مطالب نفاذ للمعلومة"
+
+msgid "Make a request"
+msgstr "تقديم مطلب جديد"
+
+msgid "Browse requests"
+msgstr "الإطلاّع على مطالب النفاذ"
+
+msgid "View authorities"
+msgstr "تصفّح قائمة الهياكل"
+
+msgid "Your privacy"
+msgstr "المعطيات الخاصة بك"
+
+msgid "Number of requests"
+msgstr "عدد المطالب المقدّمة"
+
+msgid "Number of users"
+msgstr "عدد المستعملين المسجّلين"
+
+msgid "Public authorities"
+msgstr "قائمة الهياكل"
+
+msgid "If your question isn't answered here, or you just wanted to let us know something about the site,"
+msgstr "إذا لم تجد من خلال هذا الموقع، أجوبة لكّل أسئلتك ، أو إذا أردت التواصل معنا حول هذه المنصّة"
+
+msgid "contact us"
+msgstr "للإتصّل بنا"
+
+msgid "contact&nbsp;us"
+msgstr "لا تتردّد في الإتصال بنا ..."
+
+msgid "Who is behind this?"
+msgstr "من يشرف على المنصّة ؟"
+
+msgid "Number of authorities"
+msgstr "عدد الهياكل المسجّلة"
+
+msgid "FOI officers"
+msgstr "المكلّفين بالنفاذ"
+
+msgid "About the software"
+msgstr "معطيات حول المنصّة"
+
+msgid "Advanced search"
+msgstr "بحث معمّق"
+
+msgid "Programmers API"
+msgstr "API للمبرمجين"
+
+msgid "The Welcome Message"
+msgstr "ﻢﻨﺻّة INFORMINI في نسختها الحاليّة هي في طور التجربة حيث أن مختلف مطالب النفاذ لا ترسل فعليّا إلى الجهات المعنيّة... فانتظرو النسخة الموالية"
+
+msgid "Want to know something?"
+msgstr "هل تريد الحصول على معلومة"
+
+msgid "Start your own request"
+msgstr "لا تتردّد وقدّم مطلبك"
+
+msgid "Make a request &raquo;"
+msgstr "مطلب نفاذ للمعلومة &raquo;"
+
+msgid "You have the <strong>right</strong> to request information " \
+      "from any publicly-funded body, and get answers. " \
+      "{{site_name}} helps you make a Freedom of Information " \
+      "request. It also publishes all requests online."
+msgstr "منصّة <strong>«{{site_name}}»</strong> تساعدك على تقديم مطالب نفاذ للمعلومة عن بعد.<br>"\ 
+       " كما يمكن من خلال المنّصة الإطلاّع على مختلف المطالب المقدّمة والأجوبة المتصلّة بها بإعتبارها متاحة للجميع."
+
+msgid "How it works"
+msgstr "كيف تعمل المنصّة" 
+
+msgid "Classify the Response"
+msgstr "تأكد من تصنيف الأجوبة بحيث تكون متاحة الجميع"
+
+msgid "Fill out the application form"
+msgstr "املأ نموذج المطلب وأرسله عبر المنصّة ثمّ راقب بريدك الألكتروني"
+
+msgid "Go through the authorities to select one"
+msgstr "تصفح قائمة الهياكل للبحث عن الجهة التي تمتلك المعلومة المطلوبة"
+
+msgid "Search for the requested information"
+msgstr "إبدأ بالبحث عن المعلومة المطلوبة في المنصّة ..."
+
+msgid "Learn more &rarr;"
+msgstr "للإطلاّع على المزيد &larr;"
+
+msgid "Can't find the one you want?"
+msgstr "لم تعثر على الهيكل الذي تبحث عنه ؟"
+
+msgid "<a href=\"{{browse_url}}\">Browse all</a> or <a href=\"{{add_url}}\">ask us to add one</a>."
+msgstr "يمكنك البحث عنه من خلال <a href=\"{{browse_url}}\">الإطّلاع على كامل القائمة</a>  أو اقتراح إضافته <a href=\"{{add_url}}\">من خلال هذا الرابط </a>."
+
+msgid "First, type in the <strong>name of the public authority</strong> you'd like information from."
+msgstr "ﺃﻭّﻻ، يرجى كتابة <strong>إسم الهيكل ﺃﻭ الجهة</strong> التىّ تريد أن تحصل منها على المعلومة (أو الوثيقة)."
+
+msgid "<strong>By law, they have to respond</strong> (<a href=\"{{url}}\">why?</a>)."
+msgstr "<strong>بموجب القانون، عليهم أن يستجيبوا لمطلبك </strong> (<a href=\"{{url}}\">تريد أن تعرف لماذا ؟</a>)."
+
+msgid "e.g. Ministry of Defence"
+msgstr "مثال : وزارة الطاقة"
+
+msgid "{{count}} request."
+msgstr ""
+
+msgid "Are we missing a public authority?"
+msgstr "هل نسينا إحد الهياكل أو إحدى الجهات"
+
+msgid "Please create an account or sign in"
+msgstr "الرجّاء التفضّل بإحداث حساب جديد أو تسجيل دخولك"
+
+msgid "Now check your email!"
+msgstr "الرجّاء التثبّت من المراسلات الواردة بصندوق بريدك"
+
+msgid "We've sent you an email, and you'll need to click the link in it before you can continue."
+msgstr "لقد أرسلنا إليك بريدًا إلكترونيًا ، وستحتاج إلى النقر فوق الرابط الموجود فيه لتتمكّن من تفعيل حسابك."
+
+msgid "If you use web-based email or have "junk mail" filters, also check your bulk/spam mail folders. Sometimes, our messages are marked that way."
+msgstr "إذا كنت تستخدم البريد الإلكتروني عبر الويب أو لديك وسيلة للكشف عن "البريد غير المرغوب فيه" ، فتحقق أيضًا من مجلدات البريد غير المرغوب فيه / البريد العشوائي. <strong>في بعض الأحيان</strong> ، يتم وضع علامة على رسائلنا بهذه الطريقة."
+
+msgid "Got an account?"
+msgstr "لديّ حسابي الخاص بالمنصّة"
+
+msgid "Create a new account"
+msgstr "إحداث حساب جديد"
+
+msgid "Remember me (keeps you signed in longer; do not use on a public computer)"
+msgstr "تذكرني (يبقيك مسجّلا لفترة أطول ، فلا تستخدمه على جهاز عام)"
+
+msgid "Your <strong>name will appear publicly</strong> (<a href=\"{{why_url}}\">why?</a>) on this website and in search engines. <a href=\"{{help_url}}\">Thinking of using a pseudonym?</a>"
+msgstr "الإسم المستعمل <strong>سيظهر علنا</strong> (<a href=\"{{why_url}}\">لماذا ؟</a>) على هذه المنصّة ومحرّكات البحث. <a href=\"{{help_url}}\">التفكير في استخدام اسم مستعار؟</a>"
+
+msgid "{{count}} request"
+msgid_plural "{{count}} requests"
+msgstr[0] "{{count}} مطلب نفاذ للمعلومة"
+msgstr[1] "{{count}} ﻢﻄﻠﺑ ﻦﻓﺍذ وحيد"
+msgstr[2] "{{count}} ﻢﻄﻠﺑين للنفاذ للمعلومة"
+msgstr[3] "{{count}} مطالب للنفاذ للمعلومة"
+msgstr[4] "{{count}} ﻢﻃﺎﻠﺑ ﻞﻠﻨﻓﺍﺫ ﻞﻠﻤﻌﻟﻮﻣﺓ"
+msgstr[5] "{{count}} ﻢﻃﺎﻠﺑ ﻞﻠﻨﻓﺍﺫ ﻞﻠﻤﻌﻟﻮﻣﺓ"

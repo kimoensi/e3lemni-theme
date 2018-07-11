@@ -1,0 +1,36 @@
+<% @title = _('Change your Address on {{site_name}}',
+   :site_name => site_name) %>
+
+<div id="change_address_line">
+  <%= form_for(@user, :url => address_line_path) do |f| %>
+    <%= foi_error_messages_for :user %>
+
+    <div class="form_note">
+      <h1><%= @title %></h1>
+    </div>
+
+	<p>
+      <%= f.label :name, _('Your name:'), :class => 'form_label' %>
+      <%= f.text_field :name, :size => 20, :value => @user.name,  :placeholder => 'your name' %>
+    </p>
+	
+	<p>
+      <label class="form_label" for="user_signup_name"> <%= _('Your name:') %></label>
+      <%= text_field 'user_signup', 'name', { :size => 20, :tabindex => 10, :autocomplete => "off" } %>
+    </p>
+	
+    <p>
+      <%= f.label :address_line, _('Address:'), :class => 'form_label' %>
+      <%= f.text_area :address_line, :cols => 100, :rows => 3, :value => @user.address_line,  :placeholder => 'your address' %>
+    </p>
+
+    <p>
+       <%= f.label :status_flag, _('Status:'), :class => 'form_label' %>
+       <%= f.select :status_flag, [[_('Personne morale'), 'PM'], [_('Personne physique'), 'PP']] %>
+    </p>
+
+    <div class="form_button">
+      <%= f.submit _('Change Your Address') %>
+    </div>
+  <% end %>
+</div>

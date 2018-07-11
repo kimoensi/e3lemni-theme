@@ -1,0 +1,21 @@
+<% @title = "Making requests" %>
+
+<%= render :partial => 'sidebar' %>
+<div id="left_column_flip" class="left_column_flip">
+  <% if params[:country_name] %>
+    <h1><%= _("Would you like to see a website like this in your country?") %></h1>
+  <% else %>
+    <h1>تمّ إنشاء منصّة <%= site_name %> باللإعتماد على Alaveteli</h1>
+  <% end %>
+  <p>منصّة <%= site_name %> تمّ إنشاءها بالإعتماد على البرنامج الحرّ  Alaveteli. 
+  Alaveteli هو برنامج مجاني لإرسال مطالب نفاذ إلى المعلومة وتلّقي الأجوبة المتصّلة بها.</p>
+
+  <p>تمّ تطوير برنامج  Alaveteli بدعم من قبل عدد من المؤسسات والجمعيات الخيرية التي تهتم بالشفافية في جميع أنحاء العالم.</p>
+
+  <p>إذا كنت ترغب في إنشاء موقع Alaveteli في بلدك ، فيمكننا مساعدتك. ستحتاج إلى بضعة أيام للحصول على تهيئة الموقع وجاهزة للاستخدام ، وسيتعين عليك قضاء ما لا يقل عن ساعة في الأسبوع في الإشراف على الموقع وإدارته .</p>
+
+  <p>للإطلاّع على المزيد عن : <a href="http://alaveteli.org">Alaveteli
+      website</a>, أو <a href="mailto:hello@alaveteli.org">تواصل مع  Alaveteli عن طريق البريد الألكتروني</a>.</p>
+
+  <div id="hash_link_padding"></div>
+</div>

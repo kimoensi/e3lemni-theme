@@ -1,0 +1,34 @@
+<% if I18n.locale == :ar %>
+  <%= link_to 'أ', list_public_bodies_path(:tag =>'أ')  %> 
+  <%= link_to 'ب', list_public_bodies_path(:tag =>'ب')  %>
+  <%= link_to 'ت', list_public_bodies_path(:tag =>'ت')  %>
+  <%= link_to 'ث', list_public_bodies_path(:tag =>'ث')  %>
+  <%= link_to 'ج', list_public_bodies_path(:tag =>'ج')  %>
+  <%= link_to 'ح', list_public_bodies_path(:tag =>'ح')  %>
+  <%= link_to 'خ', list_public_bodies_path(:tag =>'خ')  %>
+  <%= link_to 'د', list_public_bodies_path(:tag =>'د')  %>
+  <%= link_to 'ذ', list_public_bodies_path(:tag =>'ذ')  %>
+  <%= link_to 'ر', list_public_bodies_path(:tag =>'ر')  %>
+  <%= link_to 'ز', list_public_bodies_path(:tag =>'ز')  %>
+  <%= link_to 'س', list_public_bodies_path(:tag =>'س')  %>
+  <%= link_to 'ش', list_public_bodies_path(:tag =>'ش')  %>
+  <%= link_to 'ص', list_public_bodies_path(:tag =>'ص')  %>
+  <%= link_to 'ض', list_public_bodies_path(:tag =>'ض')  %>
+  <%= link_to 'ط', list_public_bodies_path(:tag =>'ط')  %>
+  <%= link_to 'ظ', list_public_bodies_path(:tag =>'ظ')  %>
+  <%= link_to 'ع', list_public_bodies_path(:tag =>'ع')  %>
+  <%= link_to 'غ', list_public_bodies_path(:tag =>'غ')  %>
+  <%= link_to 'ف', list_public_bodies_path(:tag =>'ف')  %>
+  <%= link_to 'ق', list_public_bodies_path(:tag =>'ق')  %>
+  <%= link_to 'ك', list_public_bodies_path(:tag =>'ك')  %>
+  <%= link_to 'ل', list_public_bodies_path(:tag =>'ل')  %>
+  <%= link_to 'م', list_public_bodies_path(:tag =>'م')  %>
+  <%= link_to 'ن', list_public_bodies_path(:tag =>'ن')  %>
+  <%= link_to 'ه', list_public_bodies_path(:tag =>'ه')  %>
+  <%= link_to 'و', list_public_bodies_path(:tag =>'و')  %>
+  <%= link_to 'ي', list_public_bodies_path(:tag =>'ي')  %>
+<% else %>
+  <%- "A".upto("Z") do |l| -%>
+   <%= link_to_unless (@tag == l), l, list_public_bodies_path(:tag => l.downcase) %>
+  <% end %>
+<% end %>

@@ -1,0 +1,25 @@
+<%
+  if @highlight_words.nil?
+    @highlight_words = []
+  end
+
+  request_link = false unless defined?(request_link)
+%>
+
+<div class="body_listing">
+  <div class="head body-listing__header">
+    <%= link_to highlight_words(public_body.name, @highlight_words), public_body_path(public_body) %>
+  </div>
+  <div class="bottomline body-listing__request-count">
+    (<%= n_('{{count}} request.',
+           '{{count}} requests.',
+           public_body.info_requests.is_searchable.size,
+           :count => public_body.info_requests.is_searchable.size) %>)
+  </div>
+
+  <% if request_link && !public_body.special_not_requestable_reason? %>
+    <div class="make-request-quick-button body_listing__request-button">
+      <%= link_to _("Make a request"), new_request_to_body_path(:url_name => public_body.url_name), :class => "link_button_green" %>
+    </div>
+  <% end %>
+</div>

@@ -1,0 +1,61 @@
+<div class="homepage-how-it-works" id="learn-more">
+  <div class="row">
+    <div class="homepage-how-it-works__hiw-content">
+      <div class="hiw-content__headings">
+        <h2 class="section-head"><%= _("How it works") %></h2>
+        <p class="hiw__subtitle">
+          <%= _("You have the <strong>right</strong> to request information " \
+                "from any publicly-funded body, and get answers. " \
+                "{{site_name}} helps you make a Freedom of Information " \
+                "request. It also publishes all requests online.",
+                :site_name => site_name) %>
+        </p>
+      </div>
+
+      <br>
+
+      <div class="hiw-content__steps">
+
+        <br>
+
+        <ol class="steps__list row">
+          <li>
+            <div>
+              <div class="step-circle">
+                <%= image_tag("icon_1.png") %>
+              </div>
+              <p><%= _("Search for the requested information") %></p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <div class="step-circle">
+                <%= image_tag("icon_2.png") %>
+              </div>
+              <p><%= _("Go through the authorities to select one") %></p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <div class="step-circle">
+                <%= image_tag("icon_3.png") %>
+              </div>
+              <p><%= _("Fill out the application form") %></p>
+            </div>
+          </li>
+          <li>
+            <div>
+              <div class="step-circle">
+                <%= image_tag("icon_4.png") %>
+              </div>
+              <p><%= _("Classify the response") %></p>
+            </div>
+          </li>
+        </ol>
+        <div class="learn-more-foi">
+          <%= link_to _("Learn more &rarr;"), help_about_path %>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,223 @@
+<% @title = _("Making requests") %>
+
+<%= render :partial => 'sidebar' %>
+<div id="left_column_flip" class="left_column_flip">
+  <h1 id="making_requests"><%= @title %> <a href="#making_requests">#</a></h1>
+  <dl>
+
+    <dt id="which_authority">Je ne sais pas à quelle structure envoyer ma demande, comment savoir laquelle choisir? <a href="#which_authority">#</a> </dt>
+
+    <dd>
+      <p>Il n'est pas facile de comprendre la structure compliquée de notre Etat et de savoir
+        quelle structure détient l'information dont vous avez besoin. Voici quelques solutions:
+      </p>
+      <ul>
+        <li>Parcourir ou rechercher sur <%= site_name %> parmi les requêtes similaires à la vôtre.</li>
+        <li>Lorsque vous avez trouvé la structure qui détient l'information dont vous avez besoin, utilisez
+          le bouton « Page d'accueil de la structure administrative » à droite de leur page pour voir,
+          sur leur site, ce qu'ils font.</li>
+        <li>Contacter la structure par téléphone ou par email
+          pour demander s'ils ont l'information dont vous avez besoin.</li>
+        <li>Si vous vous trompez de structure, elle pourra peut-être vous indiquer à qui vous devriez faire la demande.</li>
+        <li>Si vous êtes confronté à un cas difficile, vous pouvez nous contacter pour <a href="<%= help_contact_path %>">nous demander</a> de l'aide.</li>
+      </ul>
+
+    </dd>
+
+
+
+    <dt id="missing_body">La structure publique que je souhaite contacter n'apparaît pas dans votre liste! <a href="#missing_body">#</a> </dt>
+
+    <dd>
+      <p>Veuillez nous contacter en nous donnant le nom de la structure publique et si vous avez son adresse email générale de contact. Votre aide pour compléter la liste des structures publiques nous sera très utile. 
+      </p>
+
+    </dd>
+
+    <dt id="authorities">Pourquoi ajoutez-vous des structures qui ne sont pas soumises à la loi d’accès à l’information?<a href="#authorities">#</a> </dt>
+
+    <dd>
+      <p><%= site_name %> vous permet de faire des requêtes à toutes sortes d'organisations:</p>
+
+      <ul>
+        <li>Celles qui sont formellement soumises à la loi d’accès à l’information.</li>
+        <li>Celles qui acceptent volontairement de suivre la loi d’accès à l’information.</li>
+        <li>Celles qui ne sont pas soumises à la loi mais dont nous pensons
+          qu'elles devraient l’être, car nous estimons qu'elles ont une responsabilité publique morale et
+          donc une certaine obligation de transparence.
+        </li>
+      </ul>
+
+      <p>Dans ce cas, le but de Informini est d’étendre le champ d’application de la loi pour la liberté d’accès à l'information. Même si une organisation n'est pas légalement obligée de répondre à une requête, elle peut cependant le faire de son plein gré. 
+      </p>
+
+    </dd>
+
+    <dt id="focused">Pourquoi dois-je garder ma demande ciblée?<a href="#focused">#</a> </dt>
+
+    <dd>
+
+      <p>
+        Veuillez mettre dans votre demande seulement ce qui est nécessaire pour que la structure puisse
+        facilement identifier les informations que vous demandez. Veillez à ne
+        <i>pas</i> inclure les éléments suivants:
+      </p>
+
+      <ul>
+        <li>Informations ou arguments concernant un problème spécifique ou personnel.</li>
+        <li>Vos coordonnées privées car votre demande sera publiée sur Informini.</li>
+        <li>Informations qui pourraient diffamer ou insulter des tiers.</li>
+      </ul>
+
+      <p>
+        Si vous le faites, nous allons devoir supprimer votre demande
+        pour éviter des problèmes avec les législations sur la diffamation,... ce qui pourrait vous/nous causer des problèmes.
+      </p>
+
+      <p>
+        Plus les messages seront courts et précis, plus les structures publiques pourront vous aider efficacement et rapidement.
+      </p>
+
+      <p>
+        Si vous utilisez une demande faite via Informini pour écrire un blog ou un article,
+        pourriez-vous ajouter dans votre article un lien vers cette demande sur Informini?
+        Cela aidera de nouveaux citoyens à connaître l’outil Informini.com
+      </p>
+
+    </dd>
+
+    <dt id="fees">Est-ce que cela me coûte quelque chose de faire une demande?<a href="#fees">#</a> </dt>
+
+    <dd>
+
+      <p>Faire une demande d'accès à l’information est gratuit (demandez les documents sous forme électronique).</p>
+
+      <p>Dans certains cas, les structures publiques peuvent demander le payement d’une somme pour couvrir les frais de photocopies si les documents 
+       demandés doivent absolument être transmis sur papier mais la plupart des documents peuvent être transmis par les structures publiques par voie électronique simplement en répondant à l’email que Informini leur a envoyé.
+      </p>
+
+    </dd>
+
+
+
+    <dt id="quickly_response">Quand vais-je recevoir une réponse à ma requête? <a href="#quickly_response">#</a> </dt>
+
+    <dd>
+      <p>Selon la législation sur la Publicité de l’Administration, le délai de réponse est de 20 jours. Pendant cette période de 20 jours, la structure 
+       administrative peut demander une prolongation de 10 jours du délai de réponse (si elle peut justifier que la transmission des informations demande plus de temps). Informini vous enverra un courriel si vous ne recevez pas de réponse dans le délai légal.
+      </p>
+
+    </dd>
+
+    <dt id="no_response">Que faire si je ne reçois pas de réponse?<a href="#no_response">#</a> </dt>
+
+    <dd>
+      <p>Il y a plusieurs actions que vous pouvez faire si vous ne recevez pas de réponse.</p>
+      <ul>
+        <li>Parfois, il peut y avoir eu un problème technique et
+          la structure n'a peut-être pas reçu votre demande (vu qu'elle est envoyée par email). 
+          N'hésitez pas à téléphoner à la structure pour vérifier s'ils ont bien reçu votre demande.
+        </li>
+        <li>Parfois, il peut y avoir eu un problème technique et
+          la structure n'a peut-être pas reçu votre demande (vu qu'elle est envoyée par email).
+          N'hésitez pas à téléphoner à la structure pour vérifier s'ils ont bien reçu votre demande.
+        </li>
+        <li>Si la structure publique refuse de répondre ou si elle n’a pas répondu dans le délai légal, vous pouvez lui envoyer une demande de 
+          reconsidération. Pour les structures publiques qui sont soumises à la loi d’accès à l’information, vous pouvez également demander à l’Instance d’Accès à l’Information de remettre un avis. Dans ce cas, vous devez envoyer une demande de reconsidération à la structure publique et la demande d’avis à l’Instance. Pour plus d’information, lisez notre page “Mécontent de la réponse que vous avez reçue ?”.
+        </li>
+      </ul>
+    </dd>
+
+    <dt id="not_satifised">Que faire si je ne suis pas satisfait de la réponse? <a href="#not_satifised">#</a> </dt>
+    <dd>Si vous ne recevez pas les informations que vous avez demandées ou que
+      vous ne les avez pas reçues dans les délais,
+      lisez notre rubrique «Mécontent de la réponse que vous avez reçue ?».
+    </dd>
+
+    <dt id="reuse">Ils m'ont répondu que je ne peux pas réutiliser les informations que j'ai reçues!<a href="#reuse">#</a> </dt>
+    <dd>
+      <p>Les structures ajoutent parfois une note juridique au sujet de la “réutilisation des documents administratifs”,
+       qui, à première vue, implique que vous ne pouvez pas réutiliser cette information reçue.
+       Vous pouvez, bien sûr, écrire des articles basés sur ces informations
+       ou en faire un résumé ou même citer des parties de celle-ci.
+       Chez Informini nous prônons la transparence et nous estimons
+       que vous devriez être libre de pouvoir publier les informations dans leur intégralité,
+       comme nous le faisons, même si, en théorie, ce n'est pas permis. Voir notre politique sur le droit d'auteur.
+      </p>
+
+    </dd>
+
+    <dt id="ico_help">Can you tell me more of the nitty gritty about the process of making requests? <a href="#ico_help">#</a> </dt>
+
+    <dd>
+      <p>Have a look at the
+        <a href="http://www.ico.gov.uk/for_the_public/access_to_official_information.aspx">access to official information</a>
+        pages on the Information Commissioner's website.</p>
+
+      <p>If you're requesting information from a Scottish public authority,
+        the process is very similar. There are differences around time
+        limits for compliance.
+        See the <a href="http://www.itspublicknowledge.info/nmsruntime/saveasdialog.asp?lID=1858&amp;sID=321">Scottish
+          Information Commissioner's guidance</a> for details.</p>
+    </dd>
+
+    <dt id="data_protection">Puis-je demander des informations sur moi-même? <a href="#data_protection">#</a> </dt>
+
+    <dd>
+      <p>Non. Les demandes faites en utilisant Informini sont rendues publiques.
+       La plateforme ne peut donc pas être utilisée pour demander des informations sur vous ou sur une autre personne privée.
+       Si vous souhaitez connaître les informations qu'une structure publique détient sur vous,
+       vous devriez faire une demande directement à la structure sans passer par le site Informini.
+       Si vous voyez que quelqu'un a inclus des renseignements personnels à votre sujet,
+       peut-être involontairement, dans une demande, veuillez nous contacter afin que nous puissions les retirer.
+       Toujours en raison de la publication automatique sur le site des réponses des structures publiques,
+       Informini ne peut pas être utilisé pour demander des documents soumis au droit d’auteur.
+      </p>
+    </dd>
+
+
+    <dt id="private_requests">Je voudrais garder ma demande secrète (au moins jusqu'à ce que je publie mon article) <a href="#private_requests">#</a> </dt>
+
+    <dd><p><%= site_name %>  est actuellement conçu uniquement pour des demandes publiques. Si vous êtes journaliste et souhaitez un délai 
+         d’exclusivité, contactez notre équipe pour une potentielle collaboration. Par défaut toutes les réponses que nous recevons sont automatiquement publiées sur le site web afin que tout le monde puisse les lire.</p>
+      <p>Si vous souhaitez faire une demande non publique, vous devez contacter directement la structure publique.
+      </p>
+    </dd>
+
+    <dt id="multiple">Puis-je faire la même requête à plusieurs structures, par exemple “adressée à toutes les Communes”?  <a href="#multiple">#</a> </dt>
+
+    <dd>
+      <p>Nous vous conseillons d'envoyer d'abord une version « test » de votre demande à quelques structures.
+       Leurs réponses vous aideront à améliorer le libellé de votre demande, de sorte que vous obtiendrez
+       une meilleure information lorsque vous enverrez votre demande aux autres structures.
+       Il n'y a actuellement aucun système automatisé pour envoyer une demande à plusieurs structures,
+       vous devrez copier et coller manuellement votre demande.
+      </p>
+    </dd>
+
+    <dt id="offsite">J'ai fait une demande d'informations en dehors du site, comment puis-je la transférer sur <%= site_name %>?<a href="#offsite">#</a> </dt>
+
+    <dd><%= site_name %> archive les demandes d'informations faites par le biais du site.
+       Il n’est pas possible d’archiver d'autres types de données.
+       L'une des raisons est qu'avec les demandes faites en dehors du site nous ne pouvons
+       pas vérifier si c’est bien la structure publique qui a répondu et qu'elle fut sa réponse.
+       C’est pourquoi nous vous conseillons de faire vos demandes directement via <%= site_name %>.
+    </dd>
+
+    <% if AlaveteliConfiguration::enable_annotations %>
+      <dt id="moderation">Comment modérez-vous les commentaires dans les demandes? <a href="#moderation">#</a> </dt>
+
+      <dd>
+        <p>Les commentaires sur <%= site_name %> sont là pour aider les personnes à obtenir les informations qu'ils recherchent.
+        </p>
+        <p>Nous nous réservons le droit de supprimer tout autre commentaire. Les discussions politiques ne sont pas autorisées.
+        </p>
+      </dd>
+    <% end %>
+
+  </dl>
+
+  <p><strong>Suivant</strong>, en savoir plus sur <a href="<%= help_privacy_path %>">les recours</a> --&gt;
+
+    <div id="hash_link_padding"></div>
+</div>

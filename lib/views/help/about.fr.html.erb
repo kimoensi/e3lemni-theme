@@ -1,0 +1,80 @@
+<% @title = "About" %>
+
+<%= render :partial => 'sidebar' %>
+
+<div id="left_column_flip" class="left_column_flip">
+  <h1 id="introduction">Introduction à <%= site_name %> <a href="#introduction">#</a></h1>
+  <dl>
+
+    <dt id="purpose">A quoi sert <%= site_name %>? <a href="#purpose">#</a> </dt>
+    <dd>Informini est une plateforme qui vous aide à demander l’accès à des informations
+      détenues par les structures publiques. Qu’est-ce qu’une structure publique?
+      Quelques exemples : (Municipalités, Ministères, Organismes publics, Agences gouvernementales, ...).
+    </dd>
+
+    <dt id="premise">Comment ça fonctionne? <a href="#premise">#</a> </dt>
+    <dd>Vous choisissez la structure publique pour laquelle vous recherchez des informations puis
+      vous écrivez un message en demandant ce dont vous avez besoin (une question, un document détenu par l’autorité,...).
+      Ensuite nous envoyons votre demande à l'autorité publique. Vous recevrez un email
+      lorsque la structure aura répondu ou lorsque le délai de réponse sera expiré. Toutes les ré-ponses reçues sont automatiquement publiées
+      sur le site web afin que vous et tout le monde puis-siez y avoir accès.
+    </dd>
+
+    <dt id="whybother_me">Pourquoi devrais-je le faire? <a href="#whybother_me">#</a> </dt>
+    <dd>Vous payez des impôts et l’Etat réalise des actions grâce à cet argent.
+      Ces actions touchent votre vie quotidienne, de la santé jusqu’à la défense nationale.
+      Parfois de bonnes choses sont réalisées mais parfois aussi de mauvaises.
+      Plus les citoyens s'intéresseront à l’action publique, plus ils se-ront capables
+      de faire des propositions pour améliorer les choses qui sont mal réalisées et
+      pour s’exprimer sur ce qui a été bien fait. Plus les dirigeants publics se sentiront observés,
+      plus ils se-ront prudents dans la gestion de nos impôts.
+      La démocratie s’en trouvera renforcée, grâce à votre regard vigilant.
+    </dd>
+
+    <dt id="whybother_them">Pourquoi la structure publique doit répondre? <a href="#whybother_them">#</a> </dt>
+    <dd>En vertu de la législation sur le droit d'accès à l'information,
+      la plupart des structures publiques sont obligées de répondre à la plupart des demandes.
+      La réponse devrait soit contenir l'information dont vous avez besoin,
+      soit des explications sur les raisons pour lesquelles la structure
+      ne peut ou ne veut pas divulguer l’information demandée. 
+    </dd>
+
+    <dt id="reporting">Que faire si je découvre une demande qui me semble inappropriée? <a href="#reporting">#</a></dt>
+    <dd>
+      <p>
+        Les demandes d'informations personnelles ou les demandes vexatoires ne sont pas autorisées sous la loi d'accès à l'information.
+      </p>
+
+      <p>
+        Si vous pensez qu'une demande n'est pas appropriée, vous pouvez la signaler à l'attention des ad-ministrateurs du site.
+      </p>
+    </dd>
+
+    <dt id="reporting_unavailable">Pourquoi il n'est plus possible de signaler certaines demandes? <a href="#reporting_unavailable">#</a></dt>
+    <dd>
+      <p>
+        Si une requête a déjà été signalée aux administrateurs du site, vous ne pouvez plus la signaler une deuxième fois - pour éviter que les administrateurs reçoivent plusieurs signalements du même problème avant d'avoir eu l'occasion de l'examiner.
+      </p>
+
+      <p>
+        Si les administrateurs choisissent de laisser visible une demande déjà signalée comme inappro-priée,
+        vous pouvez utiliser le formulaire dans la barre latérale de la demande pour contacter
+        les administrateurs, au cas où vous estimez toujours qu'elle devrait être cachée.
+      </p>
+    </dd>
+
+    <dt id="who">Qui s'occupe de <%= site_name %> ? <a href="#who">#</a> </dt>
+    <dd><%= site_name %> est un projet du programme Onshor développé en collaboration avec <a href="http://www.alaveteli.org">Alaveteli</a>,
+      qui a été créée et est gérée par mySociety. mySociety est un projet de l'association <a href="http://www.ukcod.org.uk/UK_Citizens_Online_Democracy">UK Citizens Online Democracy</a>.
+    </dd>
+
+    <dt id="updates">Comment puis-je rester au courant de l’actualité de <%= site_name %>?<a href="#updates">#</a> </dt>
+    <dd>Nous possédons une page Facebook et un compte Twitter.
+    </dd>
+
+  </dl>
+
+  <p><strong>Suivant</strong>, en savoir plus sur <a href="<%= help_requesting_path %>">l'envoi d’une demande</a> --&gt;</p>
+
+  <div id="hash_link_padding"></div>
+</div>
