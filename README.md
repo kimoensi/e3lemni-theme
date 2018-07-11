@@ -1,4 +1,4 @@
-Infrominitheme
+e3lemnitheme
 ==============
 
 This is the official theme of [Informini](http://informini.org/).
