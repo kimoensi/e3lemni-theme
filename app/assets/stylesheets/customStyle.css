@@ -1,0 +1,96 @@
+@font-face {
+    font-family: "Droid Arabic Naskh";
+    src: url(fonts/DroidNaskh-Bold.eot?) format("eot"), url(fonts/DroidNaskh-Bold.woff) format("woff"), url(fonts/DroidNaskh-Bold.ttf) format("truetype"), url(../fonts/DroidNaskh-Bold) format("svg");
+    font-weight: 700;
+    font-style: normal
+}
+
+@font-face {
+    font-family: "Droid Arabic Naskh";
+    src: url(fonts/DroidNaskh-Regular.eot?) format("eot"), url(fonts/DroidNaskh-Regular.woff) format("woff"), url(fonts/DroidNaskh-Regular.ttf) format("truetype"), url(fonts/DroidNaskh-Regular) format("svg");
+    font-style: normal
+}
+
+@font-face {
+    font-family: HacenTunisiaBd;
+    src: url(fonts/HacenTunisiaBd.eot);
+    src: url(fonts/HacenTunisiaBd?#iefix) format("embedded-opentype"), url(fonts/HacenTunisiaBd.woff) format("woff"), url(fonts/HacenTunisiaBd.ttf) format("truetype"), url(fonts/HacenTunisiaBd.svg#svgFontName) format("svg")
+}
+
+@font-face {
+    font-family: HacenTunisiaLt;
+    src: url(fonts/HacenTunisiaLt.eot);
+    src: url(fonts/HacenTunisiaLt?#iefix) format("embedded-opentype"), url(fonts/HacenTunisiaLt.woff) format("woff"), url(fonts/HacenTunisiaLt.ttf) format("truetype"), url(fonts/HacenTunisiaLt.svg#svgFontName) format("svg")
+}
+#sign_together {
+    margin: 0.9375rem;
+}
+#right_half{
+    border: 1px solid #00428140;
+    background-color: #0056a614;
+}
+.entirebody {
+    font-family: "Droid Arabic Naskh", Helvetica, sans-serif, Helmet, Freesans, sans-serif;
+}
+.learn-more-foi a {
+color: #ffffff !important;
+font-family: "Droid Arabic Naskh", Helvetica, sans-serif, Helmet, Freesans, sans-serif;
+}
+.latest-requests .button-secondary {
+color: #ffffff !important;
+font-family: "Droid Arabic Naskh", Helvetica, sans-serif, Helmet, Freesans, sans-serif;
+}
+body {
+font-family: "Droid Arabic Naskh", Helvetica, sans-serif, Helmet, Freesans, sans-serif;
+}
+.steps__step-number {
+    background-color: #f3f1eb;
+    color:#0056a6;
+    left: 25%;
+    top: 10.5em;
+    box-shadow: 0 1px 2px rgb(0, 0, 0);
+    padding: 0.4em;
+    height: 2.2em;
+    width: 2.2em;
+}
+.p_howitwork {
+    margin-top:1.5em;
+}
+.intro__browse {
+    margin-top: -50px;
+}
+.link_hero_intro {
+    color: #fff !important;
+    text-decoration: none !important;
+}
+.div_hero_intro {
+    padding-bottom: 65px;
+}
+.span_hero_intro {
+    font-size: -webkit-xxx-large;
+}
+.js-loaded .navigation .logged-in-menu {
+    right: unset;
+}
+a:link, a:visited {
+color: #1d6db2;
+}
+.navigation a {
+color:#ffffff !important;
+}
+#select_authority_help{
+    background-color: #e8e6ea;
+    border: 1px solid #ccc;
+}
+form input[type=submit], a.link_button_green, a.link_button_green_large {
+color : #ffffff !important;
+}
+#authority_selection{
+padding:1em;
+}
+.navigation .logged-in-menu a, .navigation .logged-in-menu__signout-link a{
+color: #010e1b !important;
+}
+input#reedit_button{
+color: #2688dc !important;
+}
