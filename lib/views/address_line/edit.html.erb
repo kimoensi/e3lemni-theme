@@ -9,14 +9,9 @@
       <h1><%= @title %></h1>
     </div>
 
-	<p>
+    <p>
       <%= f.label :name, _('Your name:'), :class => 'form_label' %>
       <%= f.text_field :name, :size => 20, :value => @user.name,  :placeholder => 'your name' %>
-    </p>
-	
-	<p>
-      <label class="form_label" for="user_signup_name"> <%= _('Your name:') %></label>
-      <%= text_field 'user_signup', 'name', { :size => 20, :tabindex => 10, :autocomplete => "off" } %>
     </p>
 	
     <p>
